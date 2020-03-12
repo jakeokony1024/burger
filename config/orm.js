@@ -3,7 +3,7 @@ let connection = require("../config/connection");
 let orm = {
 
     selectAll: function(){
-        
+
     },
 
     insertOne: function(){
@@ -15,4 +15,4 @@ let orm = {
     }
 }
 
-module.exports = orm
+module.exports = orm;
