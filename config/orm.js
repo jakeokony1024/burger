@@ -4,7 +4,7 @@ let orm = {
 
     selectAll: function(tableInput, cb){
         let queryString = "SELECT * FROM " +tableInput + ";";
-        connection.query(queryString, function(error, results){
+        connection.query(queryString, function(error, result){
             if (error){
                 throw error;
             }

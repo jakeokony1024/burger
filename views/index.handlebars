@@ -7,9 +7,9 @@
 <div id="burgerSpot" class="container">
     <h2>Burgers to be devoured</h2>
     <ul>
-        {{#each burgers}}
+        {{#each burger}}
         {{#unless devoured}}
-        {{>burgers devoured=true}}
+        {{>burger devoured=true}}
         {{/unless}}
         {{/each}}
     </ul>
@@ -18,9 +18,9 @@
 <div id="eatenBurgers" class="container">
     <h2>Burgers that have been devoured</h2>
     <ul>
-        {{#each burgers}}
+        {{#each burger}}
         {{#if devoured}}
-        {{>burgers devoured=false}}
+        {{>burger devoured=false}}
         {{/if}}
         {{/each}}
     </ul>
