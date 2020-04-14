@@ -6,13 +6,18 @@ Once a burger is created, the user can choose to devour the burger with a button
 
 This application makes use of the MVC file structure, seperating out the connections, the orm, the views, the controllers, and making the .handlebars files and CSS files public. 
 
-The tech used to complete this application were mysql, node.js, express, and express handlebars. 
+The tech used to complete this application:
+* mysql
+* node.js
+* express  
+* express handlebars. 
 
-#Mysql was the database used to store our burgers data in. 
+### Tech Usage ###
+Mysql was the database used to store our burgers data in. 
 
-#Express is used to make the requests to and from the database, making use of parseing the data into JSON so it is easily usable. 
+Express is used to make the requests to and from the database, making use of parseing the data into JSON so it is easily usable. 
 
-#Express handlebars is used to dynamically render the html to the view. 
+Express handlebars is used to dynamically render the html to the view. 
 
-#Node.js is used to run the CLI as well as console logs all errors and any data pulled from the database. 
+Node.js is used to run the CLI as well as console logs all errors and any data pulled from the database. 
 
